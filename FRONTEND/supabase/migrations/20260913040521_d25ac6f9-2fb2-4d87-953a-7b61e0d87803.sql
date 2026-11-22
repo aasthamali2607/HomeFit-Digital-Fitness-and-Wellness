@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS content_overrides_kind_slug_key ON public.content_overrides (kind, slug);

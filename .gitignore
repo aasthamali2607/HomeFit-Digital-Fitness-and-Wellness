@@ -1,0 +1,25 @@
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+venv_old/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+dist/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.dump
+*.bak
